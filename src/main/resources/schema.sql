@@ -1,5 +1,3 @@
-ALTER TABLE otra_tabla DROP CONSTRAINT fk_customer;
-DROP TABLE IF EXISTS customer;
 
 CREATE TABLE customer (
     id INT IDENTITY(1,1) PRIMARY KEY,
